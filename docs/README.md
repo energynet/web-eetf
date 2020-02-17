@@ -15,6 +15,4 @@ An EN-RFC can (and currently should!) be an informal document that gathers infor
 
 Some EN-RFCs also represent draft proposed Energynet Standards, which, when ready, the Energynet Architecture Board may recommend be brought to a vote of the EETF members and advanced to an Energynet Standard.
 
-[List of EN-RFCS](enrfcs)<br>
-
-
+[List of EN-RFCS](en-rfcs)<br>

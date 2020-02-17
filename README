@@ -1,0 +1,32 @@
+# Various commands used to set up this website
+
+# TODO: Find someone to reorder and explain which are necessary
+
+
+brew install yarn
+yarn add -D vuepress
+yarn docs:dev
+yarn docs:build
+
+yarn global add vuepress
+
+
+git init
+git add *
+git commit
+git remote add origin https://github.com/energynet/web-ensoc.git
+git remote add origin https://github.com/energynet/web-eetf.git
+git push -u origin master
+
+npm install -g @aws-amplify/cli
+amplify init --appId d3jkinallftd1c   # web-ensoc
+amplify init --appId d2dy7igzndegeb   # web-eetf
+
+npm i aws-amplify      # what do these really do?
+npm i aws-amplify-vue
+
+rm .yarnrc.yml    # this fixed an amplify build error
+rm yarn.lock
+yarn install
+
+vuepress build    # does what?
