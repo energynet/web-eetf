@@ -1,0 +1,20 @@
+{
+  "name": "vue-20-energynet-society",
+  "version": "1.0.0",
+  "description": "Energynet Society Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^11.2.0",
+    "vuepress": "^1.3.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}
